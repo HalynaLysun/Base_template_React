@@ -1,9 +1,12 @@
 import "./App.module.css";
+import { Routes, Route } from "react-router-dom";
+import HomePage from "./HomePage/HomePage.jsx";
 
 export default function App() {
   return (
-    <>
-      <h1>Hello</h1>
-    </>
+    // <Header/>
+    <Routes>
+      <Route path="/" element={<HomePage />}></Route>
+    </Routes>
   );
 }
