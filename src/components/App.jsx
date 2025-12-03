@@ -1,10 +1,9 @@
 import "./App.module.css";
 import { Routes, Route } from "react-router-dom";
-import HomePage from "./HomePage/HomePage.jsx";
+import HomePage from "./toDoList/toDoList.jsx";
 
 export default function App() {
   return (
-    // <Header/>
     <Routes>
       <Route path="/" element={<HomePage />}></Route>
     </Routes>
