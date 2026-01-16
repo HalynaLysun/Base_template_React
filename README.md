@@ -41,3 +41,4 @@ Add a new <Route> inside the <Suspense> block.
 Use the Layout component to maintain UI consistency across the app.
 
 🔗 Live Demo
+base-template-react.vercel.app
